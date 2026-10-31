@@ -17,7 +17,7 @@ const useImages = (category) => {
     };
 
     getImages();
-  }, [category]);
+  }, []);
 
   return {
     images,
